@@ -1,0 +1,123 @@
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+}
+
+.left {
+position: relative;
+text-align: center;
+top: 0%;
+left:4%;
+border-style: outset;
+border-width: 5px;
+height:100%;
+width:44%;
+margin:1%;
+
+}
+
+.left1 {
+position: absolute;
+text-align: center;
+top: 32%;
+left:50%;
+border-style: outset;
+border-width: 5px;
+width:41.5%;
+margin:1%;
+}
+
+.left2 {
+position: relative;
+text-align: center;
+top: 0%;
+left:4%;
+border-style: outset;
+border-width: 5px;
+width:44%;
+margin:1%;
+}
+
+.left3{
+position: absolute;
+text-align: center;
+top: 78%;
+left:50%;
+border-style: outset;
+border-width: 5px;
+width:41.5%;
+margin:1%;
+}
+
+.left4 {
+  position: absolute;
+  left:-2%;
+  width: 20%;
+  border-style: outset;
+  border-width: 5px;
+  padding: 10px;
+}
+
+.left5 {
+  position: absolute;
+  left:28%;
+  width:20%;
+  border-style: outset;
+  border-width: 5px;
+  padding: 10px;
+}
+
+.left6 {
+  position: absolute;
+  left:58%;
+  width:20%;
+  border-style: outset;
+  border-width: 5px;
+  padding: 10px;
+}
+
+.left7 {
+  position: absolute;
+  left:88%;
+  width:20%;
+  border-style: outset;
+  border-width: 5px;
+  padding: 10px;
+}
+
+
+
+
+
+.images {
+  margin:0;
+  position: absolute;
+  top: 100%;
+  border: none !important;
+
+}
+
+.center {
+position: absolute;
+text-align: center;
+left:5%;
+top: 135%;
+border-style: outset;
+border-width: 5px;
+width:90%
+
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
